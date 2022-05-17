@@ -1,0 +1,18 @@
+.margin2{
+    margin: 3px;
+}
+.abierto{
+    background-color: rgba(21, 0, 255, 0.438)
+}
+.proceso{
+    background-color: rgba(0, 157, 255, 0.538)
+}
+.resuelto{
+    background-color: rgba(0, 221, 11, 0.437)
+}
+.rechazado{
+    background-color: rgba(255, 144, 59, 0.411)
+}
+.marginTop{
+    margin-top: 10px;
+}

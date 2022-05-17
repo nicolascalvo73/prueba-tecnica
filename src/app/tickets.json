@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "dev": "Maria Santos",
+        "status": "abierto",
+        "technology": "react",
+        "description": "problemas responsive"
+    },
+    {
+        "id": 2,
+        "dev": "Luis Gomez",
+        "status": "resuelto",
+        "technology": ".net",
+        "description": "datos incorrectos en footer"
+    },
+    {
+        "id": 3,
+        "dev": "Jorge Esquivel",
+        "status": "proceso",
+        "technology": "angular",
+        "description": "configurar conversion a pdf"
+    },
+    {
+        "id": 4,
+        "dev": "Laura Juarez",
+        "status": "rechazado",
+        "technology": "node",
+        "description": "llama a base de datos desactualizada"
+    },
+    {
+        "id": 5,
+        "dev": "Ricardo Reinaldi",
+        "status": "rechazado",
+        "technology": "vue",
+        "description": "problemas responsive"
+    },
+    {
+        "id": 6,
+        "dev": "Jose Quinto",
+        "status": "resuelto",
+        "technology": "react",
+        "description": "cambiar imagenes"
+    },
+    {
+        "id": 7,
+        "dev": "Pedro Miralles",
+        "status": "resuelto",
+        "technology": "vue",
+        "description": "revisar carrusel"
+    },
+    {
+        "id": 8,
+        "dev": "Victoria Peralta",
+        "status": "proceso",
+        "technology": "angular",
+        "description": "integrar google maps"
+    },
+    {
+        "id": 9,
+        "dev": "Micaela Gonzalez",
+        "status": "resuelto",
+        "technology": "react",
+        "description": "validacion de formularios incompleta"
+    },
+    {
+        "id": 10,
+        "dev": "Josefina Anselmi",
+        "status": "proceso",
+        "technology": "node",
+        "description": "cambiar formato de imagenes de png a jpg en base de datos"
+    }
+]

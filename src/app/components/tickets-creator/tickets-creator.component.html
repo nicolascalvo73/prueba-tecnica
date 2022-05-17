@@ -1,0 +1,35 @@
+    <div class="dialog">
+    <h2 mat-dialog-title>Generar nuevo Ticket</h2>
+    <br>
+    <div class="mb-6">
+        <mat-form-field appearance="fill" class="form">
+          <mat-label>Descripción del Ticket</mat-label>
+          <input (change)="text($event)" id="input" matInput placeholder="Añade una breve descripción" value={{description}}>
+        </mat-form-field>
+    </div>
+    <br>
+    <mat-form-field appearance="fill" class="form">
+      <mat-label>Elija tecnologia</mat-label>
+      <mat-select [(value)]="techSelection" (selectionChange)="techSelected()">
+        <mat-option value="default"></mat-option>
+        <mat-option *ngFor="let item of technology" value={{item.name}}>{{item.name}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <br>
+    <mat-form-field *ngIf="techSelection" appearance="fill">
+      <mat-label>Escoja Desarrollador</mat-label>
+      <mat-select [(value)]="devSelection" >
+        <mat-option value="default"></mat-option>
+        <mat-option *ngFor="let item of candidates" value={{item.name}}>{{item.name}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+        <button type="button" class=" margin btn btn-secondary" (click)="addTicket()" >Crear</button>
+        <button type="button" class=" margin btn btn-secondary" (click)="close()" >Cancelar</button>
+
+
+        
+</div>
+
+

@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Jorge Esquivel",
+        "primary": "Angular",
+        "secondary": ".net"
+    },
+    {
+        "name": "Maria Santos",
+        "primary": "React",
+        "secondary": "Node"
+    },
+    {
+        "name": "Ricardo Reinaldi",
+        "primary": "Vue",
+        "secondary": "React"
+    },
+    {
+        "name": "Laura Juarez",
+        "primary": "React",
+        "secondary": "Node"
+    },
+    {
+        "name": "Victoria Peralta",
+        "primary": "Vue",
+        "secondary": "Angular"
+    },
+    {
+        "name": "Luis Gomez",
+        "primary": ".net",
+        "secondary": "React"
+    },
+    {
+        "name": "Pedro Miralles",
+        "primary": "Angular",
+        "secondary": "Vue"
+    },
+    {
+        "name": "Josefina Anselmi",
+        "primary": "Node",
+        "secondary": ".net"
+    },
+    {
+        "name": "Jose Quinto",
+        "primary": "React",
+        "secondary technology": ".net"
+    },
+    {
+        "name": "Micaela Gonzalez",
+        "primary": "Node",
+        "secondary": "React"
+    }
+]

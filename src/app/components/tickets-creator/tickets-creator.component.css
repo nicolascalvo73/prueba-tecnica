@@ -1,0 +1,27 @@
+.example-form {
+    min-width: 350px;
+    max-width: 600px;
+    width: 100%;
+}
+
+.example-full-width {
+    width: 100%;
+}
+.dialog{
+    width: 400px;
+}
+.margin{
+    margin: 5px;
+}
+:host {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .form{
+    width: 380px;
+  }
+  mat-form-field {
+    margin-right: 12px;
+  }
